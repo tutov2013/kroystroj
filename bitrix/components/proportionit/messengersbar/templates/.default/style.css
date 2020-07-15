@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Roboto; 
+    src: url(/fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;    
+}
+
+@font-face {
+    font-family: SourceSansPro; 
+    src: url(/fonts/SourceSansPro-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;    
+}
+
+.pro-messbar {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.85);
+  /*  backdrop-filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);*/
+    z-index: 2000;
+}
+
+
+.pro-messbar-wrap {
+    z-index: 2001;
+    float: left;
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+    padding-top: 5px;
+}
+
+.pro-messbar-wrap a {
+    font-size: 11px !important;
+    text-align: center !important;
+    letter-spacing: 0.02em !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+}
+
+.pro-messbar-wrap-item {
+    width: 19.5%;
+    display: inline-block;
+    position: relative;
+    /* padding: 0 10px 0 29px; */
+    white-space: initial;
+    text-align: center;
+}
+
+.pro-messbar-wrap-item-img {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+
+.pro-messbar-wrap-item img {
+    width: 35px;
+    height: 35px;
+}
+
+.pro-messbar-wrap-item-text {
+    margin-bottom: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+}
+.pro-messbar-cart-count {
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(214.7deg, #EB5757 12.55%, #FF7D7D 116.76%);
+    border-radius: 50%;
+}
+
+#pro-messbar-cart-count-text {
+    margin-top: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 9px;
+    text-align: center;
+    color: #FFFFFF;
+}

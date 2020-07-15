@@ -1,0 +1,24 @@
+<svg width="35" height="35" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Group 4">
+<g id="if_Facebook_Messenger_1298720" filter="url(#filter0_d)">
+<g id="x34  stroke">
+<g id="Facebook Messenger 1">
+<path id="Facebook Messenger" fill-rule="evenodd" clip-rule="evenodd" d="M 15.9409 18.0801L 12.2484 14.142L 5.04351 18.0801L 12.9689 9.66652L 16.7516 13.6049L 23.8665 9.66652L 15.9409 18.0801ZM 14.5 0C 6.49192 0 0 6.01093 0 13.4259C 0 17.651 2.10862 21.4197 5.40374 23.8808L 5.40374 29L 10.3408 26.2903C 11.6585 26.6549 13.0543 26.8517 14.5 26.8517C 22.5081 26.8517 29 20.8408 29 13.4259C 29 6.01093 22.5081 0 14.5 0Z" transform="translate(3 4)" fill="#007FFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="-1" y="4" width="37" height="37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

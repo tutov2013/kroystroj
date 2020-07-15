@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5fcfd182-de97-43fb-a213-887db8bee170" name="kroystroy">
+        <fileTransfer rootFolder="/home/k/kroystroy/kroystroy.beget.tech/public_html" accessType="SFTP" host="kroystroy.beget.tech" port="22" sshConfigId="27b4edc1-0ff0-4163-9d45-79fe31745764" sshConfig="kroystroy_tutov@kroystroy.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

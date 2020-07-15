@@ -1,0 +1,48 @@
+<svg width="35" height="35" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Group 4">
+<g id="if_Telegram_2744933" filter="url(#filter0_d)">
+<g id="Page 1">
+<g id="Social icons">
+<g id="Telegram">
+<g id="Oval">
+<path d="M 13.5 27C 20.9558 27 27 20.9558 27 13.5C 27 6.04416 20.9558 0 13.5 0C 6.04416 0 0 6.04416 0 13.5C 0 20.9558 6.04416 27 13.5 27Z" transform="translate(4 3)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Shape">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 1.8 10.6875C 1.36265 10.6875 1.43696 10.5224 1.28612 10.1059L 0 5.87316L 9.9 0" transform="translate(13.225 12)" fill="#C8DAEA"/>
+</g>
+<g id="Shape_2">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 0 3.44171C 0.3375 3.44171 0.486619 3.28736 0.675 3.10421L 2.475 1.35394L 0.229725 -2.60925e-07" transform="translate(15.025 19.2461)" fill="#A9C9DD"/>
+</g>
+<g id="Shape_3">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 5.75114 8.12585L 11.1916 12.1454C 11.8125 12.4879 12.2605 12.3106 12.4152 11.569L 14.6298 1.13313C 14.8565 0.224106 14.2832 -0.188185 13.6893 0.0814549L 0.685444 5.09569C -0.202192 5.45172 -0.197018 5.94694 0.523646 6.16759L 3.86073 7.20915L 11.5864 2.33509C 11.9512 2.11392 12.2859 2.23283 12.0112 2.47666" transform="translate(9.50342 11.1201)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="3" width="35" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-6.75 15.7491 -15.7491 -6.75 25.8754 7.8759)">
+<stop stop-color="#3EB8ED"/>
+<stop offset="1" stop-color="#1E96C8"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.97771 4.50043 -5.3657 1.65879 11.6724 4.55019)">
+<stop stop-color="#EFF7FC"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+
+</defs>
+</svg>
+

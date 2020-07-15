@@ -1,0 +1,12 @@
+<?
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_AGREEMENT_TEXT"] = "Consent text";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_AGREEMENT_TEXT_HINT"] = "Consent text";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_FORM_FIELD_NAMES"] = "Form fields";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_LABEL_TEXT"] = "Title of the Consent checkbox ";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_LABEL_TEXT_DEFAULT_VALUE"] = "By clicking a submission button, I agree to Consent";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_LABEL_TEXT_HINT"] = "Title of the Consent checkbox";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_LABEL_URL"] = "Third-party link or file";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_FIELD_LABEL_USE_URL"] = "Open third-party link or file when clicking the link";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_TITLE_ADD"] = "Create Consent";
+$MESS["MAIN_USER_CONSENT_EDIT_COMP_TITLE_EDIT"] = "Edit Consent";
+?>

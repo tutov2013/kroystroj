@@ -1,0 +1,254 @@
+/* tab 1*/
+.angerro_yadelivery_tab1_show{
+	margin-left: 5px;
+}
+#angerro_yadelivery_tab1_map_preview{
+	width: 100%; 
+	height: 500px;
+	margin-top:15px; 
+	display: none;
+}
+/* tab 2*/
+.angerro_yadelivery_text_info_tab2{
+	display: none;
+}
+
+#angerro_yadelivery_tab2_map_preview{
+	width: 100%; 
+	height: 500px;
+}
+
+.angerro_yadelivery_tab2_buttons_block{
+	margin-top: 10px;
+}
+
+#angerro_yadelivery_tab2_hint {
+	margin-top: 10px;
+}
+
+#angerro_yadelivery_tab2_delivery_description{
+	display: none;
+}
+
+.angerro_yadelivery_tab2_header, .angerro_yadelivery_tab0_header{
+	float: left;
+	width: 356px;
+	text-align: center;
+	font-weight: bold;
+	
+	background-color: #e0e8ea;
+    color: #4b6267;
+    text-shadow: 0 1px #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+.angerro_yadelivery_tab0_header{
+    margin-right: 10px;
+}
+
+#angerro_yadelivery_tab0_send{
+    margin-top: 10px;
+}
+
+.angerro_yadelivery_tab2_header:nth-child(2n) {
+    margin-left: 10px;
+}
+
+.angerro_yadelivery_tab2_margin_10{
+	margin-left: 10px;
+}
+
+.angerro_yadelivery_tab2_clear, .angerro_yadelivery_tab0_clear {
+    clear: both;
+    visibility: hidden;
+}
+
+.angerro_yadelivery_tab2_content{
+	float: left;
+    width: 376px;
+    font-size: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.angerro_yadelivery_tab2_content input[type=text]{
+	width: 364px;
+	margin-top: 3px;
+}
+
+.angerro_yadelivery_tab2_color{
+	text-align: center;
+}
+
+.angerro_yadelivery_tab2_select_color{
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border:none;
+	/*border-top:1px solid #fff;*/
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.11), 0 1px 1px rgba(0,0,0,.3), inset 0 1px #fff, inset 0 0 1px rgba(255,255,255,.5);
+	box-shadow: 0 0 1px rgba(0,0,0,.3), 0 1px 1px rgba(0,0,0,.3), inset 0 1px 0 #fff, inset 0 0 1px rgba(255,255,255,.5);
+	background-color: #e0e9ec;
+	background-image: -webkit-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -moz-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -ms-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -o-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: linear-gradient(bottom, #d7e3e7, #fff)!important;
+	color:#3f4b54;
+	cursor:pointer;
+	display:inline-block;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	/*line-height:18px;*/
+	height: 29px;
+	text-shadow:0 1px rgba(255,255,255,0.7);
+	text-decoration:none;
+	position:relative;
+	vertical-align:middle;
+	-webkit-font-smoothing: antialiased;
+}
+
+.angerro_yadelivery_tab2_select_color:hover{
+	text-decoration: none;
+	background:#f3f6f7!important;
+	background-image: -webkit-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -moz-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -ms-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -o-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+}
+
+.angerro_yadelivery_tab2_map_name_block{
+	display: none;
+}
+
+#angerro_yadelivery_tab2_delivery_map_name{
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 356px;
+}
+
+#angerro_yadelivery_tab0_yandex_key{
+    float: left;
+    margin-top: 4px;
+    width: 356px;
+}
+
+/* tab 3*/
+.angerro_yadelivery_text_info_tab3{
+	display: none;
+}
+
+#angerro_yadelivery_tab3_map_preview{
+	width: 100%; 
+	height: 500px;
+	margin-top:15px;
+}
+
+.angerro_yadelivery_tab3_buttons_block{
+	margin-top: 10px;
+}
+
+#angerro_yadelivery_tab3_hint {
+	margin-top: 10px;
+}
+
+#angerro_yadelivery_tab3_delivery_description{
+	display: none;
+}
+
+.angerro_yadelivery_tab3_header{
+	float: left;
+	width: 356px;
+	text-align: center;
+	font-weight: bold;
+	
+	background-color: #e0e8ea;
+    color: #4b6267;
+    text-shadow: 0 1px #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 0px;
+}
+
+.angerro_yadelivery_tab3_header:nth-child(2n) {
+    margin-left: 10px;
+}
+
+.angerro_yadelivery_tab3_margin_10{
+	margin-left: 10px;
+}
+
+.angerro_yadelivery_tab3_clear {
+    clear: both;
+    visibility: hidden;
+}
+
+.angerro_yadelivery_tab3_content{
+	float: left;
+    width: 376px;
+    font-size: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.angerro_yadelivery_tab3_content input[type=text]{
+	width: 364px;
+	margin-top: 3px;
+}
+
+.angerro_yadelivery_tab3_color{
+	text-align: center;
+}
+
+.angerro_yadelivery_tab3_select_color{
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border:none;
+	/*border-top:1px solid #fff;*/
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.11), 0 1px 1px rgba(0,0,0,.3), inset 0 1px #fff, inset 0 0 1px rgba(255,255,255,.5);
+	box-shadow: 0 0 1px rgba(0,0,0,.3), 0 1px 1px rgba(0,0,0,.3), inset 0 1px 0 #fff, inset 0 0 1px rgba(255,255,255,.5);
+	background-color: #e0e9ec;
+	background-image: -webkit-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -moz-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -ms-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -o-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: linear-gradient(bottom, #d7e3e7, #fff)!important;
+	color:#3f4b54;
+	cursor:pointer;
+	display:inline-block;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	/*line-height:18px;*/
+	height: 29px;
+	text-shadow:0 1px rgba(255,255,255,0.7);
+	text-decoration:none;
+	position:relative;
+	vertical-align:middle;
+	-webkit-font-smoothing: antialiased;
+}
+
+.angerro_yadelivery_tab3_select_color:hover{
+	text-decoration: none;
+	background:#f3f6f7!important;
+	background-image: -webkit-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -moz-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -ms-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: -o-linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+	background-image: linear-gradient(top, #f8f8f9, #f2f6f8)!important;
+}
+
+.angerro_yadelivery_tab3_map_name_block{
+	display: none;
+}
+
+#angerro_yadelivery_tab3_delivery_map_name{
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 356px;
+}

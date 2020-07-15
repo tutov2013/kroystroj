@@ -1,0 +1,8 @@
+<?
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_TITLE"] = "Informationen angeben";
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_NEXT"] = "Weiter";
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_PREV"] = "Zurück";
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_CONTENT"] = "Geben Sie den gekauften Schlüssel oder Gutscheincode ein, um mit der Installation fortzufahren.";
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_CHECK_BUTTON"] = "Aktivieren";
+$MESS["SALE_CSM_WIZARD_ACTIVATIONKEYSTEP_BUY_LINK"] = "Schlüssel kaufen";
+?>

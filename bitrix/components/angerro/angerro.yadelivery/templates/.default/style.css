@@ -1,0 +1,24 @@
+.angerro_map_block_color{
+	width: 20px;
+	height: 20px;
+	float: left;
+	opacity: 0.5;
+}
+.angerro_map_block_description{
+	margin-top: 5px;
+}
+.angerro_map_block_text{
+	height: 20px;
+	font-size: 15px;
+	line-height: 20px;
+	margin-left: 10px;
+	float: left;
+}
+.angerro_map_block_clear{
+	clear: both; 
+	visibility: hidden;
+}
+.angerro_map_block_description{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,518 @@
+.detail-deliveries-container{
+    border-top: 1px solid #e7e8ea;
+    box-sizing: border-box;
+    margin-bottom: 36px;
+    margin-top: 0px;
+    padding: 0 24px;
+}
+
+.detail-deliveries-heading{
+    font-family: "robotomedium";
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 36px 0 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    color: #000000;
+}
+
+.detail-deliveries-heading .user-geo-position-value-link{
+    border-bottom: 1px dashed #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 100%;
+    color: #000000;
+}
+
+.detail-deliveries-heading + .delivery-items-container{
+	margin-top: 24px;
+}
+
+.detail-deliveries-tabs-container{
+    margin-top: 18px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.detail-deliveries-tabs-scroll{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.deliveries-tab-item{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.deliveries-tab-item:first-child{
+    margin-left: 0px;
+}
+
+.deliveries-tab-item.selected .deliveries-tab-switcher{
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.deliveries-tab-item .deliveries-tab-switcher{
+    border-radius: 4px 4px 0px 0px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 24px;
+    color: #000000;
+    height: 40px;
+}
+
+.delivery-items-container{
+    border: 1px solid #eeeeee;
+    display: table;
+    width: 100%;
+}
+
+.delivery-group-item{
+    display: none;
+}
+
+.delivery-group-item.active{
+    display: block;
+}
+
+.delivery-items,
+.detail-delivery-paysystems{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.detail-delivery-paysystems{
+    vertical-align: top;
+}
+
+.delivery-items + .detail-delivery-paysystems{
+    background-color: #f9f9f9;
+    position: relative;
+    width: 30%;
+}
+
+.detail-delivery-paysystems-container{
+    box-sizing: border-box;
+    padding: 48px 36px;
+}
+
+.detail-delivery-paysystems-container.fixed{
+	position: fixed;
+	top: 0px;
+}
+
+.detail-delivery-paysystems-container.ended{
+	position: absolute;
+	bottom: 0px;
+}
+
+.detail-delivery-paysystems .delivery-paysystems-heading{
+    font-family: "robotomedium";
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+
+.detail-delivery-paysystems .delivery-paysystems-sub-heading{
+    font-family: "robotomedium";
+    text-decoration: none;
+    line-height: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #000;
+}
+
+.detail-delivery-paysystems .delivery-paysystems-description{
+    line-height: 21px;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.detail-delivery-paysystems .delivery-paysystems-images{
+    margin-top: 24px;
+}
+
+.delivery-item.disabled{
+	display: none;
+}
+
+.delivery-item-buy.btn-simple.btn-small{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 178px;
+    overflow: hidden;
+	min-width: 160px;
+}
+
+.delivery-item-name-mobile,
+.delivery-item-price-mobile{
+    display: none;
+}
+
+.delivery-item-buy.loading,
+.delivery-item-buy.loading:hover{
+    background-image: url(images/loader-38px.svg) !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    transition: none;
+    opacity: 0.9;
+}
+
+.show-all-deliveries-container{
+	text-align: center;
+	padding: 24px;
+}
+
+.show-all-deliveries.btn-simple.btn-small{
+	padding-right: 18px;
+	padding-left: 18px;
+	min-width: auto;
+}
+
+.delivery-item-question{
+    background-image: url(images/question.png);
+    transition: all 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid #e7e8ea;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 12px;
+    border-radius: 4px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.delivery-item-question:hover{
+	opacity: 0.7;
+}
+
+.delivery-item-question:active{
+	position: relative;
+	top: 1px;
+}
+
+.delivery-item-buy{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.delivery-item-container{
+    border-bottom: 1px solid #e7e8ea;
+}
+
+.delivery-item-table{
+	border-collapse: collapse;
+    table-layout: fixed;
+	display: table;
+	width: 100%;
+}
+
+.delivery-item-row{
+    display: table-row;
+}
+
+.delivery-item-column{
+	vertical-align: middle;
+	display: table-cell;
+	padding: 24px 0px 24px 24px;
+}
+
+.delivery-item-column:first-child{
+    padding-left: 24px;
+}
+
+.delivery-item-column:last-child{
+    padding-right: 24px;
+    width: 234px;
+}
+
+.delivery-item:last-child .delivery-item-container{
+	border-bottom: 0px;
+}
+
+.delivery-item-price,
+.delivery-item-period-value{
+    font-family: "robotobold";
+	vertical-align: middle;
+	display: inline-block;
+    line-height: 21px;
+}
+
+.delivery-item-period{
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+.delivery-item-period-value{
+    line-height: 16px;
+    margin-top: -1px;
+}
+
+.delivery-item-period-icon{
+    background: url(images/delivery-time.svg) 50% 50% no-repeat transparent;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 14px;
+    height: 18px;
+    width: 18px;
+}
+
+.delivery-item-period a{
+    display: none;
+}
+
+.delivery-item-buttons{
+	text-align: right;
+}
+
+.delivery-item-name{
+	margin-bottom: 8px;
+}
+
+.delivery-item-sub-column{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delivery-item-picture{
+	text-align: left;
+	width: 136px;
+}
+
+.delivery-item-image-container{
+	box-sizing: border-box;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.delivery-item-picture img{
+    vertical-align: middle;
+	max-width: 100%;
+}
+
+.delivery-item-price-mobile,
+.delivery-item-price{
+    font-family: "robotobold";
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.delivery-item-price-mobile s,
+.delivery-item-price s{
+	font-family: "roboto_ltregular";
+    line-height: 14px;
+	margin-left: 12px;
+	font-size: 14px;
+	color: #888888;
+}
+
+.delivery-item-description{
+    margin-bottom: 24px;
+    position: relative;
+    margin-left: 24px;
+    padding-top: 6px;
+	display: none;
+}
+
+.delivery-item-description:after{
+    border-top: 2px solid #e7e8ea;
+    position: absolute;
+    width: 20px;
+    content: "";
+    top: -6px;
+    left: 0px;
+}
+
+.detail-deliveries-loader{
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    padding: 36px;
+    margin: 24px;
+}
+
+.detail-deliveries-loader-heading{
+    font-family: "robotomedium";
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.detail-deliveries-loader-heading a{
+    font-family: "robotomedium";
+    text-decoration: none;
+    max-width: 100%;
+    font-size: 16px;
+    color: #000000;
+}
+
+.detail-deliveries-loader-heading a:hover{
+    opacity: 0.8;
+}
+
+.detail-deliveries-loader-text{
+    margin-top: 6px;
+    color: #888888;
+}
+
+@media all and (max-width: 1850px){
+
+    .delivery-item-column{
+        padding: 24px 0px 24px 12px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+}
+
+@media all and (min-width: 1520px) and (max-width: 1800px){
+
+    .delivery-items,
+    .detail-delivery-paysystems{
+        display: block;
+        width: 100%;
+    }
+
+    .delivery-items + .detail-delivery-paysystems{
+        width: 100%;
+    }
+
+}
+
+
+@media all and (max-width: 1330px){
+
+    .delivery-items,
+    .detail-delivery-paysystems{
+        display: block;
+        width: 100%;
+    }
+
+    .delivery-items + .detail-delivery-paysystems{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 730px){
+
+    .delivery-item-buy.btn-simple.btn-small{
+        background-image: url(images/delivery-cart.svg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        min-width: unset;
+        font-size: 0px;
+        padding: 0px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .delivery-item-column:last-child{
+        width: 140px;
+    }
+
+    .delivery-item-period-icon{
+        display: none;
+    }
+
+    .delivery-item-column{
+        padding: 24px 0px 24px 24px;
+    }
+
+}
+
+@media all and (max-width: 670px){
+
+    .delivery-item-column.delivery-item-picture{
+        display: none;
+    }
+
+    .delivery-item-name-mobile{
+        margin-top: 12px;
+        display: block;
+    }
+
+    .delivery-item-column:first-child{
+        width: 60%;
+    }
+
+    .delivery-item-column:last-child{
+        width: 40%;
+    }
+
+    .delivery-item-price-mobile s{
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .delivery-item-price-mobile{
+        margin-bottom: 12px;
+    }
+
+    .delivery-item-price,
+    .delivery-item-period-value{
+        margin-top: 0px;
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 440px){
+
+    .delivery-item-question{
+        margin-right: 6px;
+    }
+
+    .delivery-item-description{
+        margin-left: 0px;
+    }
+
+    .delivery-items-container{
+        border: 0px;
+    }
+
+    .delivery-item-column:first-child,
+    .delivery-item-column:last-child,
+    .delivery-item-column{
+        padding: 24px 0px;
+    }
+
+    .delivery-item-column:first-child{
+        text-align: left;
+    }
+
+    .delivery-items-container{
+        display: block;
+    }
+
+    .detail-delivery-paysystems-container {
+        box-sizing: border-box;
+        padding: 36px 24px;
+    }
+
+}
+

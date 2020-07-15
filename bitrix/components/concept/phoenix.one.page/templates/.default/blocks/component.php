@@ -1,0 +1,2 @@
+#DYNAMIC<?=$components?>#
+<?$components++;?>
