@@ -456,7 +456,7 @@ CPhoenixSku::getHIBlockOptions();
 																	<?= $ar["DISABLED"]? 'disabled="disabled"': '' ?>
 																/>
 																<span class="active-flag"></span>
-																<div class="bx-filter-btn-color-icon" style="<?=$styleTab?>"></div>
+                                                                <span class="bx-filter-btn-color-icon" style="display:block;<?=$styleTab?>"></span>
 																<span class="disabled-flag"></span>
 
 															</label><?endforeach?>
@@ -546,7 +546,7 @@ CPhoenixSku::getHIBlockOptions();
 																		<?= $ar["DISABLED"]? 'disabled="disabled"': '' ?>
 																	/>
 																	<span class="active-flag"></span>
-																	<div class="bx-filter-btn-color-icon" style="<?=$styleTab?>"></div>
+                                                                    <span class="bx-filter-btn-color-icon" style="display:block;<?=$styleTab?>"></span>
 																	<span class="disabled-flag"></span>
 																</label>
 																
