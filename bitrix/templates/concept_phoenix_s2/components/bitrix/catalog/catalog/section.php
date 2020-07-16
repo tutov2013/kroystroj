@@ -190,7 +190,7 @@ $header_back = "";
 
 if($ar_result["DETAIL_PICTURE"] > 0)
 {
-    $img = CFile::ResizeImageGet($ar_result["DETAIL_PICTURE"], array('width'=>3000, 'height'=>1500), BX_RESIZE_IMAGE_PROPORTIONAL, false);  
+    $img = CFile::ResizeImageGet($ar_result["DETAIL_PICTURE"], array('width'=>1000, 'height'=>500), BX_RESIZE_IMAGE_PROPORTIONAL, false);
     $header_back = $img["src"];   
 }
 $img = null;
